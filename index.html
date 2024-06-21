@@ -25,7 +25,7 @@
                     <div>
                         <p class=" logo | text-white font-bold pr-2">First</p>
                     </div>
-                    <ul class="nav-links | flex nav-list text-white">
+                    <ul class="nav-links | flex nav-list text-white pointer">
                         <li>HOME</li>
                         <li>ABOUT</li>
                         <li>SERVICES</li>
@@ -135,7 +135,7 @@
             </div>
 
             <!-- third part second column  -->
-            <div class="third-part-boxes-parent | flex  ">
+            <div class="third-part-boxes-parent | flex relative ">
                 <div class="third-part-box-col-1 | flex flex-col ">
                     <div class="flex justify-center flex-col box-1">
                         <p class="third-part-count | font-bold">20+</p>
@@ -146,6 +146,8 @@
                         <p class="third-part-text | text-green font-bold-xl">Project Finished</p>
                     </div>
                 </div>
+                <div class="vertical-line relative "></div>
+                <div class="horizontal-line absolute"></div>
                 <div class="third-part-box-col-2 | flex flex-col">
                     <div class="flex justify-center flex-col box-3">
                         <p class="third-part-count | font-bold">245</p>
@@ -167,11 +169,11 @@
             <div class="flex flex-col items-center">
                 <p class="companies-text | font-bold text-xl">Companies i've had worked</p>
                 <div class="companies-parent-container |  flex flex-wrap justify-center  ">
-                    <div><img class="profile-image " src="assets/cachet.svg"></div>
-                    <div><img class="profile-image " src="assets/guitar-center.svg"></div>
-                    <div><img class="profile-image " src="assets/tokico.svg"></div>
-                    <div><img class="profile-image " src="assets/shopify.svg"></div>
-                    <div><img class="profile-image " src="assets/profil-rejser.svg"></div>
+                    <div><img class="companies-image | profile-image " src="assets/cachet.svg"></div>
+                    <div><img class="companies-image | profile-image " src="assets/guitar-center.svg"></div>
+                    <div><img class="companies-image | profile-image " src="assets/tokico.svg"></div>
+                    <div><img class="companies-image | profile-image " src="assets/shopify.svg"></div>
+                    <div><img class="companies-image | profile-image " src="assets/profil-rejser.svg"></div>
                 </div>
             </div>
         </div>
@@ -295,9 +297,201 @@
 
     </section>
     <!-- sixth part  -->
-    <section class="sixth-part | bg-white h-screen w-screen">
+    <section class="sixth-part | bg-white  w-screen justify-center items-center flex flex-col">
+        <div class="sixth-part-container | flex flex-col items-center ">
+            <!-- sixth part column 1  -->
+            <div class="sixth-part-column-1 | w-full flex justify-end ">
+                <div class="projects-container | flex items-center gap-1 rounded-xl bg-green justify-center">
+                    <img class=" projects-icon |  rounded-full profile-image"
+                        src="assets/white-desk-work-study-aesthetics.jpg">
+                    <p class="projects-text | text-xl font-bold text-white">Projects</p>
+                </div>
+            </div>
+            <!-- sixth part column 2  -->
+            <div class="project-cards-parent-container | flex flex-wrap">
+                <!-- card  -->
+                <div class="projects-card | flex flex-col bg-grey rounded-3xl relative">
+                    <p class="projects-card-sub-title |  text-green">BRANDING</p>
+                    <p class="projects-card-title | font-bold text-xl ">Zoik agency</p>
+                    <img class="projects-card-rotated-image | rounded-3xl absolute"
+                        src="assets/nikhil-KO4io-eCAXA-unsplash.jpg">
+                </div>
+                <div class="projects-card | flex flex-col bg-grey rounded-3xl relative">
+                    <p class="projects-card-sub-title |  text-green">PHOTOGRAPHY</p>
+                    <p class="projects-card-title | font-bold text-xl ">The Watch</p>
+                    <img class="projects-card-rotated-image | rounded-3xl absolute"
+                        src="assets/the-5th-IQYR7N67dhM-unsplash.jpg">
+                </div>
+                <div class="projects-card | flex flex-col bg-grey rounded-3xl relative">
+                    <p class="projects-card-sub-title |  text-green">WEBSITE</p>
+                    <p class="projects-card-title | font-bold text-xl ">Polo</p>
+                    <img class="projects-card-rotated-image | rounded-3xl absolute"
+                        src="assets/true-agency-9Bjog5FZ-oc-unsplash.jpg">
+                </div>
+            </div>
+        </div>
 
     </section>
+    <!-- seventh part  -->
+    <section class="seventh-part | w-screen bg-grey items-center flex flex-col">
+        <!-- seventh part container  -->
+        <div class="seventh-part-container |  flex flex-col justify-start w-80 ">
+            <!-- say hi container  -->
+            <div class="say-hi-container | bg-green flex gap-2 justify-center items-center p-2 rounded-xl">
+                <img class="say-hi-icon | rounded-full "
+                    src="assets/aerial-view-man-using-computer-laptop-wooden-table.jpg">
+                <p class="say-hi-text | text-white font-bold text-2xl">Say Hi</p>
+            </div>
+            <!-- seventh part column 2  -->
+            <div class="seventh-part-2-col-parent | flex justify-center items-center">
+                <!-- services and about cards  -->
+                <div class="seventh-part-col-1 | flex ">
+                    <!-- card 1  -->
+                    <div class="seventh-part-card-1 | bg-white">
+                        <!-- services  -->
+                        <div>
+                            <p class="seventh-part-services-text | font-bold">SERVICES</p>
+                            <!-- services tags  -->
+                            <div class="seventh-part-card-tags-parent | flex flex-wrap">
+                                <div class="card-tags-parent | flex justify-center items-center rounded-5xl">
+                                    <p class="text-grey font-bold">Websites</p>
+                                </div>
+                                <div class="card-tags-parent | flex justify-center items-center rounded-5xl">
+                                    <p class="text-grey font-bold">Branding</p>
+                                </div>
+                                <div class="card-tags-parent | flex justify-center items-center rounded-5xl">
+                                    <p class="text-grey font-bold">Ecommerce</p>
+                                </div>
+                                <div class="card-tags-parent | flex justify-center items-center rounded-5xl">
+                                    <p class="text-grey font-bold">SEO</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- stay connected  -->
+                        <div>
+                            <p class="stay-connected-text | font-bold seventh-part-services-text">STAY CONNECTED</p>
+                            <div class="social-medias-parent | flex gap-1">
+                                <div
+                                    class="social-media-icons-parent | rounded-full aspect flex justify-center items-center">
+                                    <img class="social-media-icons | icon-sm"
+                                        src="assets/twitter-black-shape-svgrepo-com.svg">
+                                </div>
+                                <div
+                                    class="social-media-icons-parent | rounded-full aspect flex justify-center items-center">
+                                    <img class="social-media-icons | icon-sm" src="assets/black-instagram-icon.svg">
+                                </div>
+                                <div
+                                    class="social-media-icons-parent | rounded-full aspect flex justify-center items-center">
+                                    <img class="social-media-icons | icon-sm" src="assets/icons8-pinterest.svg">
+                                </div>
+                                <div
+                                    class="social-media-icons-parent | rounded-full aspect flex justify-center items-center">
+                                    <img class="social-media-icons | icon-sm" src="assets/youtube-123.svg">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- start a project  -->
+                        <div class="start-a-project-container | ">
+                            <p class="start-a-project-text | font-bold seventh-part-services-text">START A PROJECT</p>
+                            <p class="start-a-project-description | text-grey ">i'm available for freelance projects</p>
+                        </div>
+                    </div>
+                    <!-- card 2  -->
+                    <div class="seventh-part-card-2 | bg-white flex flex-col">
+                        <p class="about-title | seventh-part-services-text font-bold">ABOUT</p>
+                        <p class="about-description |  text-grey start-a-project-description ">Joshua is a professional
+                            web developer.Feel free to get in touch with me</p>
+                        <p class="about-title | seventh-part-services-text font-bold">EMAIL</p>
+                        <p class="about-description |  text-grey start-a-project-description ">hello@josh.design</p>
+                        <p class="about-title | seventh-part-services-text font-bold">CALL</p>
+                        <p class="about-description |  text-grey start-a-project-description ">120-240-9600</p>
+                    </div>
+                </div>
+                <!-- contact div  -->
+                <div class="seventh-part-col-2 | flex items-center flex-col gap-1">
+                    <!-- name and email  -->
+                    <div class="name-email-parent | ">
+                        <form class="flex justify-center gap-2">
+                            <input class="text-field | bg-white" type="text" placeholder="Name" id="name">
+                            <input class="text-field | bg-white" type="email" placeholder="Email address" id="email">
+
+                    </div>
+                    <!-- check boxes -->
+                    <div class="check-box-parent | flex justify-center">
+                        <ul class="form-options | flex justify-center items-center gap-2 flex-wrap">
+                            <li class="flex justify-center .list-style-none ">
+                                <input type="checkbox" id="checkbox1" class="form-option-checkbox">
+                                <label class="relative bg-white flex justify-center items-center flex-col pointer"
+                                    for="checkbox1">
+                                    <img class="checkbox-img | aspect" src="assets/globe.png">
+                                    <p class="checkbox-text | text-grey ">Websites</p>
+                                </label>
+                            </li>
+                            <li class="flex justify-center .list-style-none ">
+                                <input type="checkbox" id="checkbox2" class="form-option-checkbox">
+                                <label class="relative bg-white flex justify-center items-center flex-col pointer"
+                                    for="checkbox2">
+                                    <img class="checkbox-img | aspect" src="assets/light-bulb.png">
+                                    <p class="checkbox-text | text-grey ">Branding</p>
+                                </label>
+                            </li>
+                            <li class="flex justify-center .list-style-none ">
+                                <input type="checkbox" id="checkbox3" class="form-option-checkbox">
+                                <label class="relative bg-white flex justify-center items-center flex-col pointer"
+                                    for="checkbox3">
+                                    <img class="checkbox-img | aspect" src="assets/pngwing.com.png">
+                                    <p class="checkbox-text | text-grey ">Ecommerce</p>
+                                </label>
+                            </li>
+                            <li class="flex justify-center .list-style-none ">
+                                <input type="checkbox" id="checkbox4" class="form-option-checkbox">
+                                <label class="relative bg-white flex justify-center items-center flex-col pointer"
+                                    for="checkbox4">
+                                    <img class="checkbox-img | aspect" src="assets/icons8-google-50.png">
+                                    <p class="checkbox-text | text-grey ">SEO</p>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- text area  -->
+                    <div class="text-area-parent | ">
+                        <textarea class="text-field text-area" placeholder="Tell me about the project"></textarea>
+                    </div>
+                    </form>
+                    <div class="flex justify-end w-full">
+                        <button class="send-button | btn rounded-3xl bg-green text-white font-bold ">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer Desktop-->
+    <footer class="footer-desktop | w-full flex justify-center items-center">
+        <div class="footer-container | container w-80 ">
+            <div class="flex space-between items-center">
+                <p class="copyright-text | ">Copyright &copy; 2036 <strong>First Portfolio</strong> Company.All rights
+                    reserved</p>
+                <div class="design-text-container | flex items-center justify-center ">
+                    <p class="copyright-text">Design: <strong>TemplateMo</strong></p>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+    <!-- footer mobile  -->
+    <footer class="footer-mobile | w-full flex justify-center items-center">
+        <div class="footer-container | container w-80 ">
+            <div class="flex items-center flex-col">
+                <p class="copyright-text-mobile | ">Copyright &copy; 2036 <strong>First Portfolio</strong> Company.All
+                    rights reserved &nbsp; <span class="text-grey"> | </span>&nbsp; Design: <strong>TemplateMo</strong>
+                </p>
+            </div>
+
+        </div>
+
+    </footer>
+
 </body>
 
 </html>

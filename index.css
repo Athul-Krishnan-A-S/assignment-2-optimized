@@ -30,6 +30,10 @@ body {
     gap: 2rem;
 }
 
+.list-style-none {
+    list-style-type: none;
+}
+
 .text-white {
     color: white;
 }
@@ -44,6 +48,10 @@ body {
 
 .bg-white {
     background-color: #ffffff;
+}
+
+.bg-red {
+    background-color: #ff0000;
 }
 
 .bg-grey {
@@ -92,6 +100,10 @@ body {
 
 .w-80 {
     width: 80%;
+}
+
+.w-90 {
+    width: 90%;
 }
 
 .border-2 {
@@ -164,6 +176,10 @@ body {
     aspect-ratio: 1/1;
 }
 
+.aspect {
+    aspect-ratio: 1/1;
+}
+
 .pointer {
     cursor: pointer;
 }
@@ -209,6 +225,10 @@ body {
     gap: 2rem;
 }
 
+.gap-1 {
+    gap: 1rem;
+}
+
 .ml-4 {
     margin-left: 4rem;
 }
@@ -225,20 +245,14 @@ body {
     font-weight: 550;
 }
 
-.b-r-1 {
-    border-right: 1px solid;
+
+
+.ease {
+    transition: ease;
 }
 
-.b-l-1 {
-    border-left: 1px solid;
-}
-
-.b-b-1 {
-    border-bottom: 1px solid;
-}
-
-.b-t-1 {
-    border-top: 1px solid;
+.duration-600 {
+    transition-duration: 600ms;
 }
 
 
@@ -381,13 +395,11 @@ td {
 
 .box-1,
 .box-3 {
-    border-bottom: 2px solid rgba(209, 209, 209, 0.466);
     padding-inline: 10px;
 }
 
 .box-1,
 .box-2 {
-    border-right: 2px solid rgba(209, 209, 209, 0.466);
     padding-inline: 10px;
 }
 
@@ -450,6 +462,182 @@ td {
     margin-bottom: 10rem;
 }
 
+.projects-container {
+    width: 30rem;
+}
+
+.projects-card-rotated-image {
+    width: 20rem;
+    height: auto;
+}
+
+.projects-card {
+    padding: 2rem;
+    gap: 1rem;
+    height: 25rem;
+    width: 20rem;
+    overflow: hidden;
+}
+
+.projects-card-sub-title,
+.projects-card-title {
+    margin: 0;
+}
+
+.projects-card-rotated-image {
+    transform: rotate(8deg);
+    top: 12rem;
+    transition: ease;
+    transition: 500ms;
+}
+
+.project-cards-parent-container {
+    gap: 2rem;
+}
+
+.sixth-part-container {
+    gap: 3rem;
+}
+
+.say-hi-container {
+    width: 30rem;
+    height: 5rem;
+    margin-top: 5rem;
+}
+
+.say-hi-icon {
+    width: 8rem;
+    height: 8rem;
+}
+
+.card-tags-parent {
+    border: 1px solid rgb(172, 169, 169);
+    padding-inline: 1rem;
+    font-size: 1rem;
+    height: 2.5rem;
+}
+
+.seventh-part-card-tags-parent {
+    width: 20rem;
+    gap: 1rem;
+}
+
+.seventh-part-services-text {
+    font-size: 1rem;
+}
+
+.social-media-icons-parent {
+    border: 1px solid rgb(172, 169, 169);
+    width: 2rem;
+    height: 2rem;
+}
+
+.social-media-icons {
+    width: 1rem;
+}
+
+.start-a-project-description {
+    font-size: 1rem;
+    width: 15rem;
+}
+
+.seventh-part-card-1 {
+    border-right: 2px solid rgba(173, 173, 173, 0.267);
+}
+
+.seventh-part-card-2,
+.seventh-part-card-1 {
+    padding: 1rem;
+    width: 15rem;
+    border-radius: 8px;
+}
+
+.seventh-part-2-col-parent {
+    margin-top: 2rem;
+}
+
+.text-field {
+    border: 2px solid rgba(173, 173, 173, 0.267);
+    outline: none;
+    padding: 1rem;
+    width: 19rem;
+}
+
+.text-area {
+    width: 42.5rem;
+    margin-left: 2.5rem;
+    height: 7rem;
+}
+
+.seventh-part-col-2 {
+    width: 60%;
+}
+
+.name-email-parent {
+    margin-left: 2.5rem;
+}
+
+.checkbox-img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.checkbox-text {
+    font-size: 1rem;
+    margin: 0;
+}
+
+label {
+    gap: 0.5rem;
+    width: 9.5rem;
+    height: 5rem;
+    border: 1.5px solid rgba(173, 173, 173, 0.267);
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]:checked+label {
+    border-color: #14b78a;
+}
+
+.form-options {
+    width: 52rem;
+}
+
+.send-button {
+    width: 100%;
+    height: 4rem;
+    font-size: 1.2rem;
+}
+
+.design-text-container {
+    border-left: 2px solid rgba(173, 173, 173, 0.267);
+    ;
+    height: 2rem;
+    width: 20rem;
+}
+
+.nav-links li:hover {
+    color: #14b78a;
+}
+
+.companies-image {
+    transition: ease;
+    transition-duration: 600ms;
+}
+
+.companies-image:hover {
+    transform: scale(1.5);
+    transition: ease;
+    transition-duration: 600ms;
+}
+
+.text-field:focus,
+.text-area:focus {
+    border-color: #14b78a;
+}
 
 /* mobile screens  */
 @media screen and (min-width:320px) and (max-width:430px) {
@@ -516,8 +704,8 @@ td {
     }
 
     .hello-friend-text {
-        font-size: 2.5rem;
-        margin-left: 1rem;
+        font-size: 2.3rem;
+        margin-left: 1.5rem;
     }
 
     .freelance-text {
@@ -686,6 +874,94 @@ td {
 
     .card-title {
         font-size: 2rem;
+    }
+
+    .projects-container {
+        padding-inline: 1rem;
+        margin-top: 2rem;
+    }
+
+    .sixth-part-container {
+        width: 90%;
+    }
+
+    .projects-card {
+        height: 25rem;
+    }
+
+    .seventh-part-col-1 {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .seventh-part-col-2 {
+        width: 100%;
+        margin-right: 2.5rem;
+    }
+
+    .seventh-part-2-col-parent {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .seventh-part-card-1,
+    .seventh-part-card-2 {
+        width: 20rem;
+    }
+
+    .say-hi-container {
+        width: 16rem;
+    }
+
+    .say-hi-text {
+        font-size: 2rem;
+    }
+
+    .say-hi-icon {
+        width: 7rem;
+        height: 7rem;
+    }
+
+    .name-email-parent form {
+        flex-direction: column;
+    }
+
+    .check-box-parent {
+        width: 30rem;
+    }
+
+    .copyright-text {
+        font-size: 1rem;
+    }
+
+    .footer-desktop {
+        display: none;
+    }
+
+    .copyright-text-mobile {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .text-area {
+        width: 20rem;
+    }
+
+    .horizontal-line {
+        background-color: #b8b8b8a9;
+        height: 1px;
+        width: 18rem;
+        left: 0rem;
+        top: 10rem;
+
+    }
+
+    .vertical-line {
+        background-color: #b8b8b8a9;
+        padding: 1px;
+        left: -1rem;
+        height: 15rem;
+        top: 3rem;
     }
 
 }
@@ -921,6 +1197,95 @@ td {
         width: 7rem;
         height: 7rem;
     }
+
+    .sixth-part {
+        margin-top: 5rem;
+    }
+
+    .sixth-part-container {
+        width: 90%;
+    }
+
+    .project-cards-parent-container {
+        width: 100%;
+        gap: 2rem;
+    }
+
+    .projects-card {
+        width: 16rem;
+        height: 21rem;
+    }
+
+    .projects-card-rotated-image {
+        width: 16rem;
+    }
+
+    .seventh-part-col-1 {
+        gap: 0.5rem;
+    }
+
+    .seventh-part-col-2 {
+        width: 100%;
+        margin-right: 2.5rem;
+    }
+
+    .seventh-part-2-col-parent {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .seventh-part-card-1,
+    .seventh-part-card-2 {
+        width: 20rem;
+    }
+
+    .say-hi-container {
+        width: 20rem;
+    }
+
+    .say-hi-text {
+        font-size: 2rem;
+    }
+
+    .say-hi-icon {
+        width: 7rem;
+        height: 7rem;
+    }
+
+    .check-box-parent {
+        width: 60rem;
+    }
+
+    .text-area {
+        width: 40rem;
+    }
+
+    label {
+        width: 21rem;
+    }
+
+    .copyright-text {
+        font-size: 0.6rem;
+    }
+
+    .footer-mobile {
+        display: none;
+    }
+
+    .horizontal-line {
+        background-color: #b8b8b8a9;
+        height: 1px;
+        width: 35rem;
+        left: 0rem;
+        top: 10rem;
+
+    }
+
+    .vertical-line {
+        background-color: #b8b8b8a9;
+        padding: 1px;
+        right: 1.8rem;
+    }
 }
 
 /* desktop  */
@@ -1069,23 +1434,33 @@ td {
     .services-card:hover .purple-button,
     .services-card:hover .rotated-div {
         background-color: #14b78a;
+        transition: ease;
+        transition-duration: 600ms;
     }
 
     .services-card:hover {
         scale: 1.05;
+        transition: ease;
+        transition-duration: 600ms;
     }
 
     .services-card:hover .green-shape {
         background-color: #535da2;
+        transition: ease;
+        transition-duration: 600ms;
     }
 
     .services-card:hover .services-icons {
         filter: invert();
+        transition: ease;
+        transition-duration: 600ms;
     }
 
     .discover-button:hover {
         background-color: #14b78a;
         color: white;
+        transition: ease;
+        transition-duration: 600ms;
     }
 
     .rotated-div {
@@ -1100,5 +1475,44 @@ td {
         height: 8rem;
         right: -4.5rem;
         bottom: 1rem;
+    }
+
+    .projects-card:hover .projects-card-rotated-image {
+        transform: rotate(0deg);
+        top: 8rem;
+        transition: ease;
+        transition: 500ms;
+    }
+
+    .sixth-part {
+        height: 100vh;
+    }
+
+    .seventh-part-2-col-parent {
+        justify-content: space-between;
+    }
+
+    .send-button {
+        width: 10rem;
+        height: 4rem;
+    }
+
+    .footer-mobile {
+        display: none;
+    }
+
+    .horizontal-line {
+        background-color: #b8b8b8a9;
+        height: 1px;
+        width: 25rem;
+        left: 2rem;
+        top: 6rem;
+
+    }
+
+    .vertical-line {
+        background-color: #b8b8b8a9;
+        width: 1px;
+        left: 1rem;
     }
 }
