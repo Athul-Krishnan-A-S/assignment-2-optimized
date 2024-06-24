@@ -1290,9 +1290,10 @@ input[type="checkbox"]:checked+label {
 
 /* desktop  */
 @media(min-width:991px) {
-    .second-part{
+    .second-part {
         height: 80vh !important;
     }
+
     .container {
         padding-inline: 1rem;
         padding-block: 1rem;
@@ -1301,15 +1302,18 @@ input[type="checkbox"]:checked+label {
     .logo {
         font-size: 4rem;
     }
-    .image-1{
+
+    .image-1 {
         width: 10rem !important;
         height: 10rem !important;
     }
-    .contact-circle{
+
+    .contact-circle {
         width: 4rem;
         height: 4rem;
     }
-    .contact-div{
+
+    .contact-div {
         width: 15rem;
         height: 2rem;
         font-weight: bold;
@@ -1347,23 +1351,28 @@ input[type="checkbox"]:checked+label {
         height: 3rem;
         font-size: 20px;
     }
-    .hello-friend-text{
+
+    .hello-friend-text {
         font-size: 5rem;
     }
-    .freelance-text{
+
+    .freelance-text {
         font-size: 3rem;
     }
-    .col-2-first-page{
+
+    .col-2-first-page {
         width: 46rem;
         padding-inline: 1rem;
     }
+
     .image-first-page {
         width: 70rem;
         top: 9rem;
         left: -9rem;
 
     }
-    .contents-first-page{
+
+    .contents-first-page {
         gap: 3rem;
     }
 
@@ -1371,7 +1380,8 @@ input[type="checkbox"]:checked+label {
         width: 50rem;
         height: 50rem;
     }
-    .lets-begin-btn{
+
+    .lets-begin-btn {
         width: 15rem;
         height: 5rem;
         font-size: 2rem;
@@ -1381,10 +1391,11 @@ input[type="checkbox"]:checked+label {
         width: 70rem;
         height: auto;
     }
-    .second-part-container{
+
+    .second-part-container {
         gap: 8rem;
     }
-  
+
     .second-page-mystory-container {
         width: 45rem;
     }
@@ -1442,7 +1453,8 @@ input[type="checkbox"]:checked+label {
         font-size: 1.8rem;
         padding: 1rem;
     }
-    caption{
+
+    caption {
         padding: 1rem;
         font-size: 1.8rem;
     }
@@ -1456,21 +1468,28 @@ input[type="checkbox"]:checked+label {
         margin-left: 2rem;
         gap: 2rem;
     }
-    .third-part-count{
+
+    .third-part-count {
         font-size: 6rem;
     }
+
     .companies-parent-container {
         gap: 8rem;
     }
-    .third-part-text{
+
+    .third-part-text {
         font-size: 1.5rem;
     }
-    .third-part-box-col-1 div,.third-part-box-col-2 div{
+
+    .third-part-box-col-1 div,
+    .third-part-box-col-2 div {
         width: 15rem;
     }
-    .third-part-boxes-parent{
+
+    .third-part-boxes-parent {
         margin-bottom: 5rem;
     }
+
     .services-container {
         width: 70%;
         margin-top: 6rem;
@@ -1507,9 +1526,11 @@ input[type="checkbox"]:checked+label {
         transition: ease;
         transition-duration: 600ms;
     }
-    .fourth-part{
+
+    .fourth-part {
         height: 40rem;
     }
+
     .services-card:hover .services-icons {
         filter: invert();
         transition: ease;
@@ -1556,14 +1577,16 @@ input[type="checkbox"]:checked+label {
         width: 10rem;
         height: 4rem;
     }
-    .companies-image{
+
+    .companies-image {
         width: 18rem;
     }
 
     .footer-mobile {
         display: none;
     }
-    .companys-parent{
+
+    .companys-parent {
         gap: 5rem;
         margin-bottom: 5rem;
     }
@@ -1580,28 +1603,35 @@ input[type="checkbox"]:checked+label {
     .vertical-line {
         background-color: #b8b8b849;
         width: 1px;
-        left: 1rem;
+        left: -rem;
     }
-    .projects-container{
+
+    .projects-container {
         width: 50rem;
         padding: 1%;
     }
-    .projects-icon{
+
+    .projects-icon {
         width: 8rem;
         height: 8rem;
     }
-    .projects-card{
-        width:38rem;
+
+    .projects-card {
+        width: 38rem;
         height: 40rem;
     }
-    .projects-card-rotated-image{
-        width:36rem;
+
+    .projects-card-rotated-image {
+        width: 36rem;
     }
-    .say-hi-container{
+
+    .say-hi-container {
         width: 64rem;
         height: 8rem;
     }
-    .seventh-part-card-1,.seventh-part-card-2{
+
+    .seventh-part-card-1,
+    .seventh-part-card-2 {
         width: 32rem;
         height: 50rem;
         margin-top: 5rem;
@@ -1614,101 +1644,113 @@ input[type="checkbox"]:checked+label {
         width: 11rem;
         height: 11rem;
     }
-    
+
     .card-tags-parent {
         border: 1px solid rgb(172, 169, 169);
         padding-inline: 0.5rem;
         font-size: 1.5rem;
         height: 3rem;
     }
-    
+
     .seventh-part-card-tags-parent {
         width: 25rem;
         gap: 1rem;
     }
-    
+
     .seventh-part-services-text {
         font-size: 2rem;
     }
-    
+
     .social-media-icons-parent {
         border: 1px solid rgb(172, 169, 169);
         width: 3rem;
         height: 3rem;
     }
-    
+
     .social-media-icons {
         width: 1.5rem;
     }
-    
+
     .start-a-project-description {
         font-size: 1.5rem;
         width: 20rem;
     }
-    
+
     .seventh-part-card-1 {
         border-right: 2px solid rgba(173, 173, 173, 0.267);
         /* gap: 5rem; */
         display: flex;
         flex-direction: column;
+        height: 40rem;
     }
-    .gap-3{
+
+    .gap-3 {
         gap: 3rem;
     }
-  
-    
+
+    .seventh-part-card-2 {
+        height: 40rem;
+    }
+
+
     .seventh-part-2-col-parent {
         margin-top: 2rem;
     }
-    
+
     .text-field {
         border: 2px solid rgba(173, 173, 173, 0.459);
         outline: none;
         padding: 2rem;
         width: 30rem;
     }
-    
+
     .text-area {
         width: 65rem;
         margin-left: 2.5rem;
         height: 15rem;
         font-size: 2rem;
     }
-    
+
     .seventh-part-col-2 {
         width: 60%;
     }
-    
+
     .name-email-parent {
         margin-left: 2.5rem;
     }
-    
+
     .checkbox-img {
         width: 2.5rem;
         height: 2.5rem;
     }
-    
+
     .checkbox-text {
         font-size: 1.5rem;
         margin: 0;
     }
-    
+
     label {
         gap: 0.5rem;
         width: 15rem;
         height: 8rem;
         border: 1.5px solid rgba(173, 173, 173, 0.267);
     }
-    
+
     .form-options {
         width: 70rem;
         gap: 3rem;
     }
-    .footer-desktop{
+
+    .footer-desktop {
         height: 10rem;
     }
-    .copyright-text{
+
+    .copyright-text {
         font-size: 2rem;
     }
-    
+
+    .seventh-part {
+        height: 100rem !important;
+    }
+
 }
