@@ -3,6 +3,7 @@ body {
     padding: 0;
 }
 
+
 ::-webkit-scrollbar {
     width: 0;
 }
@@ -380,12 +381,10 @@ td {
 
 .table tr:nth-child(odd) {
     background-color: rgba(241, 241, 241, 0.712);
-    ;
 }
 
 .table tr:nth-child(even) {
     background-color: rgb(255, 255, 255);
-    ;
 }
 
 .third-part-boxes-parent {
@@ -974,6 +973,10 @@ input[type="checkbox"]:checked+label {
         position: relative;
     }
 
+    .hamburger-menu {
+        margin-left: 1rem;
+    }
+
     .nav-links {
         display: none;
     }
@@ -996,7 +999,7 @@ input[type="checkbox"]:checked+label {
 
     .navbar {
         background: white;
-        padding-inline: 1rem;
+        padding-inline: 0.3rem;
     }
 
     .contact-circle {
@@ -1159,7 +1162,7 @@ input[type="checkbox"]:checked+label {
         margin-top: 2rem;
         padding-inline: 1rem;
         padding-block: 1rem;
-        margin-right: 1.5rem;
+        /* margin-right: 1.5rem; */
     }
 
     .fifth-part-image {
@@ -1173,12 +1176,12 @@ input[type="checkbox"]:checked+label {
 
     .services-box-parent {
         flex-direction: column;
-        margin-right: 1rem;
+        /* margin-right: 1rem; */
     }
 
     .services-card {
         width: 40rem;
-        margin-right: 1.9rem;
+        /* margin-right: 1.9rem; */
         height: 30rem;
         border-radius: 20px;
     }
@@ -1226,7 +1229,7 @@ input[type="checkbox"]:checked+label {
 
     .seventh-part-col-2 {
         width: 100%;
-        margin-right: 2.5rem;
+        /* margin-right: 2.5rem; */
     }
 
     .seventh-part-2-col-parent {
@@ -1290,6 +1293,10 @@ input[type="checkbox"]:checked+label {
 
 /* desktop  */
 @media(min-width:991px) {
+    html {
+        font-size: 12px;
+    }
+
     .second-part {
         height: 80vh !important;
     }
@@ -1633,7 +1640,7 @@ input[type="checkbox"]:checked+label {
     .seventh-part-card-1,
     .seventh-part-card-2 {
         width: 32rem;
-        height:38rem;
+        height: 38rem;
         margin-top: 5rem;
         margin-bottom: 5rem;
         padding: 3rem;
@@ -1697,18 +1704,18 @@ input[type="checkbox"]:checked+label {
         border: 2px solid rgba(173, 173, 173, 0.459);
         outline: none;
         padding: 2rem;
-        width: 30rem;
+        max-width: 30rem;
     }
 
     .text-area {
-        width: 65rem;
+        max-width: 65rem;
         margin-left: 2.5rem;
         height: 15rem;
         font-size: 2rem;
     }
 
     .seventh-part-col-2 {
-        width: 60%;
+        width: 40%;
     }
 
     .name-email-parent {
@@ -1727,7 +1734,7 @@ input[type="checkbox"]:checked+label {
 
     label {
         gap: 0.5rem;
-        width: 15rem;
+        max-width: 15rem;
         height: 8rem;
         border: 1.5px solid rgba(173, 173, 173, 0.267);
     }
