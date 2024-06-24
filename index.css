@@ -561,7 +561,6 @@ td {
     outline: none;
     padding: 1rem;
     width: 19rem;
-    font-size: 1.5rem;
 }
 
 .text-area {
@@ -1604,7 +1603,7 @@ input[type="checkbox"]:checked+label {
     .vertical-line {
         background-color: #b8b8b849;
         width: 1px;
-        left: -rem;
+        left: 1rem;
     }
 
     .projects-container {
@@ -1634,8 +1633,9 @@ input[type="checkbox"]:checked+label {
     .seventh-part-card-1,
     .seventh-part-card-2 {
         width: 32rem;
-        height: 50rem;
+        height:38rem;
         margin-top: 5rem;
+        margin-bottom: 5rem;
         padding: 3rem;
     }
 
@@ -1682,15 +1682,10 @@ input[type="checkbox"]:checked+label {
         /* gap: 5rem; */
         display: flex;
         flex-direction: column;
-        height: 40rem;
     }
 
     .gap-3 {
         gap: 3rem;
-    }
-
-    .seventh-part-card-2 {
-        height: 40rem;
     }
 
 
@@ -1742,16 +1737,8 @@ input[type="checkbox"]:checked+label {
         gap: 3rem;
     }
 
-    .footer-desktop {
-        height: 10rem;
-    }
-
     .copyright-text {
         font-size: 2rem;
-    }
-
-    .seventh-part {
-        height: 100rem !important;
     }
 
 }
