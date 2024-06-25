@@ -687,8 +687,8 @@ input[type="checkbox"]:checked+label {
 
     .dropdown-navbar {
         padding: 0.5rem;
-        width: 95.2%;
-        right: 0.1rem;
+        width: 95.5%;
+        right: 0.01rem;
 
     }
 
@@ -824,8 +824,9 @@ input[type="checkbox"]:checked+label {
     }
 
     .companies-parent-container {
-        gap: 2rem;
+        gap: 1rem;
         justify-content: start;
+        margin-inline: auto;
     }
 
     .services-container {
@@ -962,11 +963,12 @@ input[type="checkbox"]:checked+label {
         height: 15rem;
         top: 3rem;
     }
+    
 
 }
 
 /* tab  */
-@media screen and (min-width:500px) and (max-width:990px) {
+@media screen and (min-width:500px) and (max-width:1024px) {
     .container {
         padding-inline: 2rem;
         padding-block: 1rem;
@@ -1064,7 +1066,9 @@ input[type="checkbox"]:checked+label {
         width: 35rem;
         gap: 2rem;
     }
-
+    .dropdown-navbar{
+        width: 88% !important;
+    }
     .mystory-text {
         font-size: 3rem;
     }
@@ -1222,6 +1226,9 @@ input[type="checkbox"]:checked+label {
     .projects-card-rotated-image {
         width: 16rem;
     }
+    .seventh-part{
+        margin-top: 5rem;
+    }
 
     .seventh-part-col-1 {
         gap: 0.5rem;
@@ -1229,7 +1236,7 @@ input[type="checkbox"]:checked+label {
 
     .seventh-part-col-2 {
         width: 100%;
-        /* margin-right: 2.5rem; */
+        margin-right: 2.5rem;
     }
 
     .seventh-part-2-col-parent {
@@ -1292,7 +1299,7 @@ input[type="checkbox"]:checked+label {
 }
 
 /* desktop  */
-@media(min-width:991px) {
+@media(min-width:1025px) {
     html {
         font-size: 12px;
     }
