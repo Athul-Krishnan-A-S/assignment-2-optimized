@@ -1355,6 +1355,10 @@ input[type="checkbox"]:checked+label {
         width: 6rem;
         height: 6rem;
     }
+    .last-img{
+        width: 8rem !important;
+        height: 8rem !important;
+    }
 
     .contents-first-page {
         gap: 1rem;
@@ -1632,11 +1636,12 @@ input[type="checkbox"]:checked+label {
 
     .projects-card {
         width: 38rem;
-        height: 40rem;
+        height: 45rem;
     }
 
     .projects-card-rotated-image {
         width: 36rem;
+        margin-top: 5rem;
     }
 
     .say-hi-container {
